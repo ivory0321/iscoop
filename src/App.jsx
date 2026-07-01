@@ -13,6 +13,7 @@ import {CartProvider} from "./contexts/CartContext.jsx";
 import CartSidebar from "./components/CartSidebar.jsx";
 import Order from "./pages/Order.jsx";
 import OrderHistory from "./pages/OrderHistory.jsx";
+import Help from "./pages/Help.jsx";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
                         <Route path="/order" element={<Order user={user}/>} />
                         <Route path="/login" element={<Login/>}/>
                         <Route path="/order-history" element={<OrderHistory user={user} />} />
+                        <Route path="/help" element={<Help/>} />
                     </Routes>
                 </Container>
                 <aside className={"miniCartSidebar"}>

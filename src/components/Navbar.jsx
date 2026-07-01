@@ -22,6 +22,7 @@ const NavigationBar = ({user, handleCartShow}) => {
                     <Nav.Link as={Link} to="/products">Products</Nav.Link>
                     <Nav.Link as={Link} to="/order">Order</Nav.Link>
                     <Nav.Link as={Link} to="/order-history">History</Nav.Link>
+                    <Nav.Link as={Link} to="/help">Help</Nav.Link>
                 </Nav>
                 <Nav className={"align-items-center"}>
                     <Nav.Link onClick={handleCartShow}
