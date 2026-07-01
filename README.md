@@ -1,13 +1,15 @@
-# React + Vite
+## Iscoop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+sample 3-commerce web application using React+Vite featuring
+- home
+- guest mode
+- login / sign in
+- products
+- cart
+- checkout
+- order history
 
 ## Github Actions
-
-- Ths project utilizes SurpApi for sample product list and pre-loaded via github actions
-- 
+CI/CD pipeline using Github Actions for 
+- data crawling from surpApi
+- Github Page deployment
